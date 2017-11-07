@@ -9,4 +9,12 @@ int main(){
 	cin>>x;
 	cout<<"Masukan Nilai Y : ";
 	cin>>y;
+	
+		if (x>y){
+		z=x-y;
+	}
+	else if (y>x){
+		z=y-x;
+	}
+	cout<<"Hasil : "<<z;
 }
